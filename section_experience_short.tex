@@ -1,0 +1,139 @@
+\sectionTitle{Professional Experience}{\faSuitcase}
+%\renewcommand{\labelitemi}{$\bullet$}
+ \begin{experiences}
+  \experience
+    {Present}     {Manager Projects (Technical Architect)}{Cognizant}{Kolkata}
+    {Oct 2018}    {
+                      \begin{itemize}
+                        \item As Full Stack developer contributing in development of Walmart SAMS Club Planogram management application. Primarily contributing in React, Spring cloud micro services, Azure Function etc. 
+                        \item As a senior data engineer I designed \& led the development of the complete data pipeline for 100+ Walmart SAMS ETL jobs for transferring on-premises data to Azure Blob Storage
+                        \item This pipeline comprises of Apache Airflow HA cluster with distributed Celery workers and RabbitMQ as task-queue. Includes Azure Data Factory(ADF), Blob Storage \& Databricks too 
+                        %\item Developed an JSON/YAML based DAG Factory framework in Python3 for airflow so that any new job can be introduced as a JSON/YAML config
+                        \item Built ADF dataflow with pyspark Databricks notebooks for loading data from blob store,  join different data sources, process, and write aggregated data into blobstore. Also scheduling the databricks jobs into ADF
+                        %\item Contributed in developing Scala based databricks jobs for getting different insights from the data
+                        %\item Implemented the Change Data Capture (CDC) using Databricks Delta
+                        \item Developed multiple scripts as part of Continuous deployment which creates the complete airflow cluster from scratch and start/stop the services
+                        \item Contributed in POV/RFP/RFI(s) on GCP based cloud architecture 
+                      \end{itemize}
+                  }
+                  {Python, Pandas, Apache Airflow, Apache Cloudlib, 
+                    Swift API, Celery, Rabbitmq, SqlAlchemy, Bash, Sqoop, Blob Storage, ADF, Scala, Databricks, React, Spring Cloud Services, Azure, GCP}
+  \emptySeparator
+  \experience
+    {Present}   {Consultant Technical Architect}{Asconsoftech}{Kolkata}
+    {October 2019} {
+                      \begin{itemize}
+                        \item Designed the entire backend architecture of classifieds social commerce portal Gintaa. Gintaa backend comprises of multiple microservices serving specific business contexts, having dedicated database per service, event driven communications and materialized views.      
+                        \item Using Firebase authentication for authenticating Gintaa Users  
+                        \item Using REDIS as in-memory KV store caching layer
+                        \item Developed multiple pipelines using Spring Cloud Stream and Spring Function to automate certain business processes 
+                        \item Designed and developed Notification service using Spring boot, Spring Batch, Akka, Spring Scheduler, AWS SNS, AWS Lambda, Sendgrid Mail API, Twilio messaging SDK, Firebase Cloud messaging and Maven custom plugin for event DTO generation
+                        \item Implemented Saga pattern using Axon framework
+                        \item Currently evaluating Quarkus and Micronaut for their offerings and doing small POC(s)
+                        \item Planning to migrate internal microservices communications to RSocket
+                        \item Evaluating AXON Server for CQRS implementation and event sourcing
+                      \end{itemize}
+                    }
+                    {Java 14, Spring Boot, Spring Cloud Gateway, Spring Cloud Stream, Spring Function, Spring Batch, Akka, Firebase, JWT, Kafka, Eclipse Collections, MongoDB, PostgreSQL, Cassandra, AWS SNS, AWS Lambda, ElasticSearch, Maven, GIT}
+  \emptySeparator
+  \experience
+    {Sep 2018}   {Technical Architect}{NRI Fintech}{Kolkata}
+    {March 2016} {
+                      \begin{itemize}
+                        \item Extended the existing local custodian system into a global custodian system for supporting international financial services   
+                        \item Designed \& developed a highly concurrent and fault tolerant FIX message connector for Thai Stock Exchange(TSE) using open source QuickFix framework 
+                        \item Built real time car data analysis platform for a leading car manufacturer company on AWS using Spark, Kafka, Spring, Java8 \& Cloudera Hadoop
+                        \item Developed a prediction engine for Car insurance domain using Azure Event hub, Azure Stream analytics, ADL Gen2 \& PowerBI 
+                        \item Built a serverless push notification system on AWS Lambda for managing catastrophic situations in heavy engineering plants
+                        \item Worked as Technical Architect \& owner of EIG - Enterprise Integration Gateway, which supports secure and seamless communication of any financial information between disparate systems   
+                      \end{itemize}
+                    }
+                    {Java 8, Camel, ZooKeeper, Spring Boot, Hibernate, QuickFix, Akka, JWT, Spark, Kafka, AWS Lambda, Angular 1, JavasScript, C\#, ActiveMQ, MySQL, Apache Tomcat, AZ Event Hub, AZ Stream Analytics, ADLS GEN2, PowerBI, Visual Studio, Maven, GIT}
+  \emptySeparator
+  \experience
+    {Feb 2016} {Senior Associate platform Level 2}{Sapient Consulting}{Bangalore}
+    {Sep 2015}    {
+                      \begin{itemize}
+                        \item Designed and developed a robust transformer bridge which receives MT formatted SWIFT messages from legacy system and converts them into MX format. This pluggable system could be placed between any complex enterprise trading system and make the conversion seamless. Apart from conversion this also validates the messages and handles the anomalies. It also has a responsive UI to reconcile and rollback                           
+                        \item Conduct in-house trainings on Java Concurrency, Spring JMS/AOP/Integration and Object oriented javascript.                        
+                                                                     
+                      \end{itemize}
+                    }
+                    {Java 8, Spring Boot, Spring Integration, ActiveMQ, JBoss, Eclipse, Angular.js, Maven}
+  \emptySeparator
+  \experience
+    {Sep 2015}     {Assistant Vice President}{CITI Services India Pvt. Ltd}{Chennai}
+    {Jun 2015}    {
+                      \begin{itemize}
+                        \item Development and bug fixes of internal flow based MVC framework ASDP
+                        \item Architecture design and implementation of Gateway microservice extending Spring Zuul. Implemented token based authentication using Spring Security JWT 
+                     \end{itemize}
+                    }
+                    {Spring Boot, Spring Security, JJWT, Hibernate, Struts2, Spring Webflow, 
+ Eclipse, Maven}
+  \emptySeparator
+  \experience
+  {Jun 2015}       {Senior Software Developer}{Seamless Distribution AB}{Kolkata}
+  {Sep 2014}       {
+                       \begin{itemize}
+                        \item Design, development and bug fixes of ERS which is a transaction managment tool for mobile recharge requests                               
+                        \item Developed a xml based dsl plugin for auto generation of data-aggregator groovy scripts            
+                        \item Design and development of several Web Service (SOAP) APIs                      
+                      \end{itemize}
+                    }
+                    {Java, Spring Integration, Spring JDBC, GWT, CXF, Freemarker, Groovy, Maven, Eclipse, Git}
+  \emptySeparator
+  \experience
+  {Sep 2014}      {IT Analyst}{Tata Consultancy Services}{Kolkata}
+  {Aug 2011}    {
+  				\begin{itemize}
+  				\item Worked as an individual contributor in core framework platform team of CITI proprietary complete J2EE suite JFP. Developed, enhanced and maintained various JFP framework components like ASDP, Cache, and JFP Policy
+                \item Reconstructed flow based legacy ASDP framework using Spring Webflow 2
+and Struts2. Developed an eclipse plugin for drawing ASDP flowcharts and generating sources dynamically
+				\item Provided ASDP design consultation to various teams across the globe which includes CITIBANK Online teams in the US, Latin America, Europe, the Middle East and Africa (EMEA), China, Japan and Singapore
+  				\end{itemize}
+  }   
+  {Java, J2EE, Spring MVC, Spring Webflow, Struts1/2, Apache Wink, Freemarker,
+Hibernnate, Maven, WAS 7, Eclipse JDT}
+ \emptySeparator   
+  \experience
+  {Aug 2011}    {Software Engineer}{WIPRO Technologies}{Kolkata}
+  {Sep 2010}    {
+                      \begin{itemize}
+                        \item Enhancement and bug fixings of Lexmark’s knowledge based search framework Inquira developed on Apple WebObjects
+                      \end{itemize}
+                    }
+                    {Java, JSP, Servlet, Inquira, Tomcat}    
+  \emptySeparator            
+  \experience
+  {Sep 2010}   {Software Developer}{Allen Industries Pvt. Ltd}{Kolkata}
+  {Apr 2010}   {
+                      \begin{itemize}
+                        \item Developed and maintained a dynamic website for the maintenance of ships of ABS(American Bureau of Shipping). This application includes ship cleaning schedule management, anomaly management, inspection details, audit report generation etc
+                       \end{itemize}
+                    }
+                    {
+                      JAVA, Spring, GWT, Spring, Hibernate, JBOSS, ANT
+                    }
+  \emptySeparator
+  \experience
+  {Apr 2010}  {Software Developer}{NickIT Solutions Pvt. Ltd}{Kolkata}
+  {Apr 2009}   {
+                      \begin{itemize}
+                        \item Designed and developed a bulk SMS portal for organizing sms campaigns, manage customer database, generate several business reports etc
+                        \item Database modeling and implementation of the ORM layer
+                        \item Designed and developed a bluetooth proximity server on ObexFTP to push media files to consumer mobile
+                      \end{itemize}
+                  }
+                  {Java, C, ObexFTP, BlueCove, Shell programming, MySQL}
+ \emptySeparator
+  \experience
+  {Mar 2009}  {Junior Software Developer}{Hi-Q Solutions Pvt. Ltd}{Kolkata}
+  {Sep 2007}   {
+                      \begin{itemize}
+                        \item Development and bug fixing of a functional website for real estate organization
+                        \item Designed and developed a RFID card based auto attendance record system
+                      \end{itemize}
+                  }
+                  {Java, JSP, Servlet, Struts2, VB6, MySQL}
+\end{experiences}
